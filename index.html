@@ -23,17 +23,35 @@
     <link rel="manifest" href="images/site.webmanifest">
     <!-- Integrate Semantic UI  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <!-- Load Google fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Oswald|Roboto&display=swap" rel="stylesheet">
     <!-- Link the main stylesheet -->
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
     <div class="ui container">
-        <div class="logo top-margin">
+        <div class="logo top-margin bottom-margin">
             <p class="center">
                 <img src="images/logo.png" class="ui centered circular image" id="logo" alt="AWLO Logo">
             </p>
+            <h1 class="center font">
+                Loan Needs Assessment Form
+            </h1>
         </div>
+        <form action="#" class="ui form grid" id="form">
+            <div class="ui stackable three column grid">
+                <div class="column">
+                    <div class="ui fluid icon input">
+                        <input type="text" placeholder="Search a very wide input...">
+                        <i class="search icon"></i>
+                    </div>
+                </div>
+            </div>
+        </form>
     </div>
+
+    <!-- Load jQuery  -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <!-- Load Semantic UI -->
 <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
 <script src="scripts/main.js"></script>

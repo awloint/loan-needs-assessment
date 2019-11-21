@@ -2,12 +2,85 @@ body {
     background: linear-gradient(350deg, rgba(231,231,231,1) 0%, rgba(231,231,231,1) 60%, rgba(240,39,41,1) 60%, rgba(241,15,17,1) 100%);
 }
 
+.container {
+  width: 60%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 94%;
+  }
+}
+
 #logo {
     box-shadow: 0 0 3rem 0 #fff;
     width: 10rem;
 }
 
+.padding-bottom {
+  padding-bottom: 3rem;
+}
+
+.padding-top {
+  padding-top: 20px;
+}
+
 .top-margin {
-    margin-top: 8rem;
-    /* Add something */
+  margin-top: 8rem;
+}
+
+.bottom-margin {
+  margin-bottom: 2rem;
+}
+
+.font {
+    color: whitesmoke;
+    font-size: 2.5rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.3em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#form {
+  background: #fff;
+  /* position: relative; */
+  height: auto;
+  margin: auto;
+  margin-top: 0px;
+  padding-top: 4em;
+  margin-bottom: 50px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  /*   filter: opacity(50%); */
+}
+
+.initialCaps {
+  text-transform: capitalize!important;
+}
+
+.lowerCase {
+  text-transform: lowercase!important;
 }
