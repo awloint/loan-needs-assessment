@@ -1,0 +1,12 @@
+body {
+    background: linear-gradient(350deg, rgba(231,231,231,1) 0%, rgba(231,231,231,1) 60%, rgba(240,39,41,1) 60%, rgba(241,15,17,1) 100%);
+}
+
+#logo {
+    box-shadow: 0 0 3rem 0 #fff;
+    width: 10rem;
+}
+
+.top-margin {
+    margin-top: 8rem;
+}
